@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Switch</title>
+  <link rel="stylesheet" href="../../_css/estilo.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div>
+    <form method="GET" id="form">
+      <label for="num">Número:</label> <input type="number" name="numero" id="num"><br>
+      <fieldset><legend>Operação</legend>
+        <input type="radio" name="ope" id="dub" value="1"><label for="dub">Dobro</label><br>
+        <input type="radio" name="ope" id="cub" value="2"><label for="cub">Cubo</label><br>
+        <input type="radio" name="ope" id="sqr" value="3"><label for="sqr">Raíz Quadrada</label>
+      </fieldset>
+      <input type="submit" value="Calcular" class="botao" onclick="alerta()">
+    </form>
+  </div>
+</body>
+</html>
+ 

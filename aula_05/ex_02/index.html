@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste de Formulário</title>
+  <link rel="stylesheet" href="../../_css/estilo.css">
+</head>
+<body>
+  <div>
+      <form action="data.php" method="GET">
+        <label for="name">Nome:</label> <input type="text" name="nome" id="name"><br>
+        <label for="year">Ano de Nascimento:</label> <input type="number" name="ano" id="year">
+        <fieldset><legend>Sexo</legend>
+          <input type="radio" name="sexo" id="masc" value="homem"> <label for="masc">Masculino</label><br>
+          <input type="radio" name="sexo" id="fem" value="mulher"> <label for="fem">Feminino</label><br>
+          <input type="radio" name="sexo" id="nb" value="não-binário"> <label for="nb">Não-binário</label>
+        </fieldset>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+</body>
+</html>
+ 
